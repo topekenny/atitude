@@ -1204,7 +1204,17 @@ ul.navbar-nav > li > a:focus{
 
 
 
+/*Uback to top btn */
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 3px 15px !important;
+     border-radius: 5px !important;
+    font-size: 22px !important;
+    display: none;
+}
 
 
 

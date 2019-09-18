@@ -113,7 +113,7 @@
 
                 </div>
                 <div id="home-btn">
-                    <a class="btn btn-general btn-home" href="#about" title="start now" role="button">Start now</a>
+                    <a class="btn btn-general btn-home smooth-scroll" href="#about" title="start now" role="button">Start now</a>
                 </div>
             </div>
 
@@ -121,7 +121,7 @@
         </div>
 
         <!-- arrow element-->
-        <a href="#about" id="arrow-down">
+        <a href="#about" id="arrow-down" class="smooth-scroll">
             <i class="fa fa-angle-down"></i>
         </a>
     </section>
@@ -1222,6 +1222,9 @@
         </div>
     </section>
     <!--End -->
+    
+    
+    
 
     <!-- footer -->
     <footer class="text-center">
@@ -1232,6 +1235,12 @@
                 </div>
             </div>
         </div>
+        
+        <!-- back to top-->
+    <a href="#home" id="back-to-top" class="btn btn-sm btn-yellow btn-back-to-top smooth-scroll" title="home" role="button">
+        <i class="fa fa-angle-up"></i>
+    </a>
+    
     </footer>
     <!--End -->
 
@@ -1255,6 +1264,9 @@
 
     <!-- waypointr js.-->
     <script src="js/waypoints/jquery.waypoints.min.js"></script>
+    
+        <!-- easing js.-->
+    <script src="js/easing/jquery.easing.min.js"></script>
 
     <!-- counter js.-->
     <script src="js/counter/jquery.counterup.min.js"></script>
