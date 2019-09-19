@@ -1,0 +1,65 @@
+/*responsive  */
+
+/* large devices */
+@media(min-width: 1200px) and (max-width: 1299px){
+    
+}
+
+
+/* landscape devices */
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    .vertical-heading h2{
+        font-size: 29px;
+    }
+    #services-tabs .tab-bg{
+        padding: 16px 30px;
+        min-height: 395px;
+    }
+    .service-tab p{
+        line-height: 20px;
+        
+    }
+}
+
+
+/* small devices portait tablet and small desktop */
+
+@media(min-width: 768px) and (max-width: 991px) {
+    .service .icon {
+    margin-left: -10px;
+}
+   #services-tabs .tab-bg{
+        padding: 10px 20px;
+        min-height: 30px;
+    }
+    .service-tab h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+    .service-tab h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+    #testimonial-slider {
+    top: -100px;
+    margin-left:50px
+}
+    #contact-right {
+    margin-left: 50px;
+}
+    .blog-post h4 {
+        font-size: 20px;
+    }
+    
+    
+}
+
+
+/* xtra small devices portrait tablet and small phones */
+
+@media (max-width: 767px) {
+     #home-heading h1{
+        background-color: blue;
+    }
+}
